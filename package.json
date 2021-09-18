@@ -1,0 +1,42 @@
+{
+  "name": "mine-ddos-bots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "beta": "node ./scripts/start-beta.js",
+    "start": "node ./scripts/start-stable.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "events": "^3.3.0",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "i": "^0.3.6",
+    "minecraft-protocol-forge": "^1.0.0",
+    "mineflayer": "^3.11.0",
+    "mineflayer-armor-manager": "^1.4.2",
+    "mineflayer-pvp": "^1.0.2",
+    "mineflayer-statemachine": "^1.6.4",
+    "node-canvas-webgl": "^0.2.6",
+    "node-console-colors": "^1.1.4",
+    "node-fetch": "^2.6.1",
+    "npm": "^7.21.1",
+    "pm2": "^5.1.1",
+    "pngjs-image": "^0.11.7",
+    "prismarine-viewer": "^1.19.3",
+    "proxy-agent": "^5.0.0",
+    "random": "^3.0.6",
+    "sleep": "^6.3.0",
+    "socks": "^2.6.1",
+    "socks5-client": "^1.2.8",
+    "tcp-port-used": "^1.0.2",
+    "text-to-image": "^4.0.0",
+    "text-to-picture": "^1.0.0",
+    "three": "^0.132.2",
+    "vec3": "^0.1.7"
+  }
+}
