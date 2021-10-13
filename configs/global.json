@@ -1,0 +1,20 @@
+{
+	"server": {
+		"serverhost": "dima_dencep.aternos.me",
+		"serverport": 62998
+	},
+	"proxy": {
+		"type": "http"
+	},
+	"profiles": {
+		"messages": "default",
+		"names": "default"
+	},
+	"modules": [
+		"register",
+		"messages",
+		"proxygen",
+		"captcha",
+		"moving"
+	]
+}
